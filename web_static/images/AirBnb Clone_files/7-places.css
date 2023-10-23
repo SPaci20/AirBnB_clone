@@ -1,0 +1,19 @@
+.places_titles {
+    align-items:start;
+}
+
+.places_titles h1 {
+    font-size: 30px;
+}
+.article {
+    width: 390;
+    padding: 20px;
+    margin:20px;
+    border: solid #FF5A5F 1px;
+    border-radius: 4px;
+}
+
+.article h2 {
+    font-size: 30px;
+    text-align: center;
+}
