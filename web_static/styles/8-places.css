@@ -2,20 +2,26 @@
     font-size: 30px;
 }
 
-.articles{
+.articles {
     display: flex;
-    align-items: baseline;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
 }
-.places article{
+.places article {
+    min-width: 390px;
     width: 390px;
     margin: 20px;
     padding: 20px;
-    border: solid #FF5A5F 1px;
+    border:  solid #FF5A5F 1px;
     border-radius: 4px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 30px;
+    position: relative;
 }
+
 article h2{
     font-size: 30px;
 }
@@ -54,13 +60,15 @@ article h2{
     font-size: 14px;
     color:  #484848;
     font-weight: normal;
+    padding-top: 45px;
 }
 
-.max_guest .icon {
+.max_guests .icon {
     background-image: url('../images/guest_icon.png');
     background-position: center;
     background-repeat: no-repeat;
     height: 50px;
+    margin-bottom: 30px;
 }
 
 .number_rooms .icon {
@@ -68,13 +76,15 @@ article h2{
     background-position: center;
     background-repeat: no-repeat;
     height: 50px;
+    margin-bottom: 30px;
 }
 
 .number_bathrooms .icon {
-    background-image: url('../images/icon_bath.png';
+    background-image: url('../images/icon_bath.png');
     background-position: center;
     background-repeat: no-repeat;
     height: 50px;
+    margin-bottom: 30px;
 }
 
 .places .user b {
